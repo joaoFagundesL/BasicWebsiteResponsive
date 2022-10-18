@@ -1,6 +1,5 @@
 .sobre {
     text-align: center;
-    padding: 2.5rem;
 }
 
 .sobre__titulo {
@@ -11,7 +10,34 @@
 
 .sobre__descricao {
     color: var(--cinza-medio);
-    font-size: 1.75rem;
     font-weight: 100;
     padding-top: 2rem;
+}
+
+@media screen and (min-width: 0) {
+    .sobre {
+        padding: 2.5rem 1rem;
+    }
+
+    .sobre__titulo {
+        font-size: 2rem;
+    }
+
+    .sobre__descricao {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sobre {
+        padding: 2.5rem;
+    }
+
+    .sobre__titulo {
+        font-size: 3.1875rem;
+    }
+
+    .sobre__descricao {
+        font-size: 1.75rem;
+    }
 }
